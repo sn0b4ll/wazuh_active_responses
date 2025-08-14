@@ -1,0 +1,1 @@
+# wazuh_active_responses
