@@ -22,7 +22,7 @@ LOG_FILE = "C:\\Program Files (x86)\\ossec-agent\\active-response\\active-respon
 
 # Set the link to your custom velo msi here
 # Follow https://docs.velociraptor.app/docs/deployment/clients/ for the msi creation
-VELO_MSI_URL="http://192.168.1.89:24424/Wp2hBXh2sZqv.msi"
+VELO_MSI_URL="<replace with VELO-MSI>"
 
 ADD_COMMAND = 0
 
