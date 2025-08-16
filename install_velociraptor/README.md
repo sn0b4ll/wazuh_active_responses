@@ -31,7 +31,7 @@ Edit the `VELO_MSI_URL` variable at the top of the script:
 VELO_MSI_URL="<replace with VELO-MSI>"
 ```
 
-Use your own Velociraptor MSI location or a local file path.
+Use your own Velociraptor MSI location or a local file path. If you don't have an MSI yet, you can look here: https://docs.velociraptor.app/docs/deployment/clients/
 
 ### Example Configuration in `ossec.conf`
 
