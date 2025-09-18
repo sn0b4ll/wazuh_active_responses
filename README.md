@@ -13,8 +13,10 @@ For more information about active responses, please see here: [Wazuh Documentati
 
 ```
 ├── install_velociraptor
-│   ├── install_velo.py          
-│   └── README.md                
+│   ├── install-velo.py          
+│   └── README.md
+├── windows/disable-interfaces
+│   └── disable-interfaces.cmd 
 └── README.md                    
 ```
 
