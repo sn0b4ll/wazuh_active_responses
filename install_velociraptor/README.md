@@ -2,10 +2,10 @@
 
 ## Overview
 
-`install_velo.py` is an Active Response script for Wazuh agents that automatically downloads and installs a Velociraptor MSI package when triggered by a specific rule ID. The script is written in Python 3 and follows the Wazuh active response conventions.
+`install-velo.py` is an Active Response script for Wazuh agents that automatically downloads and installs a Velociraptor MSI package when triggered by a specific rule ID. The script is written in Python 3 and follows the Wazuh active response conventions.
 
 - **Author**: sn0b4ll (modified from original Wazuh Inc.)
-- **Date**: 2025‑08‑15
+- **Date**: 2025‑09‑18
 - **License**: GPL‑2.0
 
 ## Features
