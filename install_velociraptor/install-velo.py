@@ -108,6 +108,14 @@ def main(argv):
             write_debug_file(argv[0], f"Successfully downloaded and installed {msi_filename}")
         except Exception as e:
             write_debug_file(argv[0], f"Failed to download or install MSI: {str(e)}")
+
+        finally:
+            # Clean up the downloaded MSI file after installation attempt
+            try:
+                os.remove(msi_filename)
+                write_debug_file(argv[0], f"Successfully removed installer file: {msi_filename}")
+            except OSError as e:
+                write_debug_file(argv[0], f"Error removing installer file {msi_filename}: {e}")
         
 
         with open("ar-test-result.txt", mode="a") as test_file:
